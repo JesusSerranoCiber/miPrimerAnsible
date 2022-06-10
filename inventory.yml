@@ -1,0 +1,10 @@
+web:
+  hosts:
+    20.223.235.148
+  vars:
+    dir_domain: ciber
+    domain: ciber.com
+    ansible_user: ubuntu
+    ansible_ssh_private_key_file: ~/.ssh/id_rsaAzure
+    ansible_sudo_pass: qwerty
+    php_version: 7.4
